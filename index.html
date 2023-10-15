@@ -19,11 +19,12 @@
         <h2 id="h2">Sahil Udar - <span id="portfolio">Portfolio</span></h2>
         <div id="a_m">
             <a class="n" style="color:grey;">Home</a>
-        <a href="#skills" class="n"><span>Skills</span></a>
-        <a id="a2" class="n" href="#">Projects</a>
+        <a href="#skillsS" class="n"><span>Skills</span></a>
+        <a id="a2" class="n" href="#projects">Projects</a>
         </div>
     </nav>
 
+<div class="mainSite">
 
     <div class="profileCard">
     <div class="profileContent">
@@ -51,26 +52,38 @@
         </div>
     </div>
     <div id="profile">
-    <img width="350px" src="profile.jpg" id="profilePic"></div>
+    <img width="300px" src="profile.jpg" id="profilePic"></div>
     </div>
 
-    <div class="profileCard">
-    
-    <div id="skills">
+    <div id="skillsS" class="profileCard skillsContainer">
+    <div class="empty"></div>
+    <div id="skills" class="skillsContainer">
             <span id="slider">
-                <img src="content/htmlcssjs.png" width="130px" alt=""><input type="range" min="0" max="100" value="80" disabled>
+                <img src="content/htmlcssjs.png" width="110px" alt=""><input type="range" min="0" max="100" value="80" disabled>
             </span>
             <span id="slider">
-                <img src="content/js.png" width="70px" alt=""><input type="range" min="0" max="100" value="70" disabled>
+                <img src="content/js.png" width="80px" alt=""><input type="range" min="0" max="100" value="70" disabled>
             </span>
             <span id="slider">
-                <img src="content/django.png" width="160px" alt=""><input type="range" min="0" max="100" value="60" disabled>
+                <img src="content/django.png" width="140px" alt=""><input type="range" min="0" max="100" value="60" disabled>
             </span>
             <span id="slider">
-                <img src="content/php.png" width="120px" alt=""><input type="range" min="0" max="100" value="70" disabled>
+                <img src="content/php.png" width="100px" alt=""><input type="range" min="0" max="100" value="70" disabled>
             </span>
         </div>
+        <div class="empty"></div>
     </div>
 
+    <div id="projects" class="profileCard projects">
+        <div class="card projectCard"> <p id="projectTitle">myCoords - A one step quick solution to check your coordinates</p><button onclick="window.location.href = 'https://github.com/ProgrammerSahil/mycoords';"> <span>Github Link</span>
+        </button></div>
+        <div class="card projectCard"><p id="projectTitle">TreasureText - Save text/notes with secure passwords and access them anywhere</p><button onclick="window.location.href = 'https://github.com/ProgrammerSahil/TreasureText';"> <span>Github Link</span>
+        </button></div>
+        <div class="card projectCard"><p id="projectTitle">Etch A Sketch - A pixel art making website</p><button onclick="window.location.href = 'https://github.com/ProgrammerSahil/etch_a_sketch';"> <span>Github Link</span>
+        </button></div>
+        <div class="card projectCard"><p id="projectTitle">WeatheRadio - A weather based music recommender</p><button onclick="window.location.href = 'https://github.com/ProgrammerSahil/weatheRadio';"> <span>Github Link</span>
+        </button></div>
+    </div>
+</div>
 </body>
 </html>
