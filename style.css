@@ -1,0 +1,136 @@
+*, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.profileCard{
+    background-color: #4A4A4A;
+    margin:60px 100px;
+    display: flex;
+    justify-content: space-between;
+    padding:70px 150px;
+    border-radius: 10px;
+    box-shadow:  5px -0.5px 25px #2B2B2B;
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    transition-duration: 0.2s;
+}
+.profileCard:hover{
+    box-shadow:  5px -0.5px 40px black;
+}
+
+.profileContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:40px 0px;
+    padding-right: 100px;
+}
+.profileContent #aboutPara{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.profileCard #profile img {
+    border-radius: 50%;
+    border:solid white 2px;
+    transition-duration: 0.1s;
+}
+.profileCard #profile img:hover{
+    border: solid white 3px;
+}
+#skills{
+    display: inline;
+}
+#skills #slider{
+    display: inline-flex;
+}
+
+#skills input{
+    margin-left:20px;
+    width: 80px;
+    margin-right:30px;
+}
+
+
+.card {
+    margin-top:30px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  
+
